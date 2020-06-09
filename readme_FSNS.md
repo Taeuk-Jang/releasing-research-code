@@ -4,14 +4,18 @@
 Specific dependencies about the project can be found in `requirements.txt`
 
 #### 2. code description
+
+`src/train.py` : it has the process of training FSNS network. It trains for 5 repetition.
 to run example training process:
 ```console
 python train.py --dataset 'bank' --senstive_feature 1 --upsample True  --lr_h 1e-3 --lr_c 1e-5 --lr_p 1e-3 --et 1 --lamda 1 --alpha 0.2 --mu 0.6
 ```
-
-`src/train.py` : it has the process of training FSNS network. It trains for 5 repetition.
-
 `src/test.py` :  it has the process of testing FSNS network. It tests for 5 repetition.
+you can also try with :
+to run example training process:
+```console
+python test.py --dataset 'bank'
+```
 
 `src/utils.py` : it contains utils to run the model including loss functions and minor calculations.
 
