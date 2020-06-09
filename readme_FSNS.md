@@ -23,8 +23,8 @@ python train.py --dataset 'bank' --senstive_feature 1 --upsample True  --lr_h 1e
 
 
 #### 3. Pre-trained models
-Example pre-trained model trained on Bank dataset is included in `model/model.ckpt`
-The dataset can be downloaded from the link.
+Example pre-trained model trained on Bank dataset is included in `model/bank/extractor.pth`(H), `model/bank/predictor.pth`(P), `model/bank/classifier.pth`(C)
+The dataset can be downloaded from the [link](https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank-additional.zip).
 
 
 If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at jang141@purdue.com or open an issue on this GitHub repository. 
